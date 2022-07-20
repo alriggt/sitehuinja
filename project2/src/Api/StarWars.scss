@@ -1,0 +1,17 @@
+.background{
+  background: url("../img/background.jpg");
+}
+
+.starwars-page__tabs{
+  height: 860px;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.nav-link{
+  text-align: center;
+}

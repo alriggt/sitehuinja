@@ -1,0 +1,51 @@
+{
+  "navbar": {
+    "home": "Startseite",
+    "about": "über",
+    "services": "Dienstleistungen",
+    "starWars": "StarWars",
+    "contact": "Kontakt",
+    "signUp": "Registrieren Sie sich"
+  },
+  "presentation": {
+    "preTitle": "PLATTFORM DER NÄCHSTEN GENERATION",
+    "title": "Künstliche Intelligenz\n& Syber-Sicherheit",
+    "aftTitle": "Lorem ipsum ist ein Platzhaltertext, der häufig in der Grafik-,\nDruck- und Verlagsbranche für die Vorschau von Layouts und\nvisuelle Attrappen",
+    "button1": "Los geht's",
+    "button2": "Video"
+  },
+  "slide": {
+    "title": "\nAnwendung von AI, Deep Learning\nund Data Sciece zur Lösung von",
+    "aftTitle": "Lorem ipsum ist ein Platzhaltertext, der in der Grafik-, Druck- und Verlagsbranche häufig für die Vorschau von Layouts und visuellen Modellen verwendet wird.",
+    "button": "Mehr erfahren"
+  },
+  "sliderBord": {
+    "title": "Naxly als Gewinner der Global Agency Awards",
+    "description": "Lorem ipsum ist ein Platzhaltertext, der in der Druck- und Verlagsbranche häufig für die Vorschau von Layouts und visuellen Mockups verwendet wird."
+  },
+  "about": {
+    "title": "Was unsere Kunden über unsere großartigen Lösungen sagen",
+    "description": {
+      "tab1": "Um ein triviales Beispiel zu nennen: Wer von uns unternimmt jemals eine anstrengende körperliche Betätigung, es sei denn, um daraus einen Vorteil zu ziehen, der weiß es nicht.",
+      "tab2": "Lorem ipsum is placeholder text commonly used in the\ngraphic, print, and publishing .",
+      "tab3": "Lorem ipsum ist ein Platzhaltertext, der in der Grafik-, Druck- und Verlagsbranche häufig für die Vorschau von Layouts und visuellen Mockups verwendet wird."
+    }
+  },
+  "footer": {
+    "information": "INFORMATIONEN",
+    "footerMenu": "MENÜ FÜSSER",
+    "usefulLinks": "NÜTZLICHE LINKS",
+    "aboutStore": "ÜBER DAS GESCHÄFT",
+    "links": {
+      "newCollections": "Neue Kollektion",
+      "aboutStore": "Über das Geschäft",
+      "contact": "Kontaktieren Sie uns",
+      "news": "Neueste Nachrichten",
+      "siteMap": "Unsere Sitemap",
+      "orders": "Bestellungen Nachrichten",
+      "inst": "Instagram-Profil",
+      "purchase": "Thema kaufen",
+      "terms": "Bedingungen und Konditionen"
+    }
+  }
+}

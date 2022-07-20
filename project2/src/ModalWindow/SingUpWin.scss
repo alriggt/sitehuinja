@@ -1,0 +1,145 @@
+.singUp-box {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgb(2, 10, 24, 0.9);;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.singUp-box.active{
+  opacity: 1;
+  z-index: 3;
+  pointer-events: all;
+}
+
+.singUp-content {
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  width: 35%;
+  height: 50%;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registration{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+}
+
+.registration p{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  color: #3A68B8;
+  margin-bottom: 20px;
+}
+
+.registration input{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+  color: black;
+  opacity: 0.7;
+  border-radius: 10px;
+  width: 80%;
+  height: 50px;
+  margin: 20px 0;
+  padding: 0 20px;
+}
+
+.buttonReg {
+  margin: 0 10px;
+  position: relative;
+  padding: 10px 30px;
+  margin-top: 40px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+  color: #3A68B8;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.buttonReg:before{
+  position: absolute;
+  content: " ";
+  top:-1px;
+  left: -1px;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #3A68B8;
+  border-left: 2px solid #3A68B8;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+}
+
+.buttonReg:after{
+  position: absolute;
+  content: " ";
+  bottom: -1px;
+  right: -1px;
+  width: 10px;
+  height: 10px;
+  border-bottom: 2px solid #3A68B8;
+  border-right: 2px solid #3A68B8;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+}
+
+.buttonReg:hover::before, .buttonReg:hover::after{
+  width: 100%;
+  height: 100%;
+  transition-delay: 0s;
+}
+
+.buttonReg:hover{
+  background-color: #3A68B8;
+  color: #FFFFFF;
+  box-shadow: 0 0 50px #3A68B8;
+  transition-delay: 0.5s;
+}
+
+.input-links {
+  text-decoration: none;
+  padding: 0 20px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  color: #3A68B8;
+}
+
+.wind-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.wind-Buttons{
+  display: inline-flex;
+}
+
+.input-Username{
+  display: none;
+}
